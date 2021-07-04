@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meet Kicker</title>
+    <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans"
+            rel="stylesheet"
+            type="text/css"
+    />
+    <link
+            crossorigin="anonymous"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            rel="stylesheet"
+    />
+    <style>
+      /* Modal Structure */
+
+    html,body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	margin: 0;
+	min-height: 180px;
+	padding: 0;
+	width: 350px;
+}
+h1 {
+	font-family: "Menlo", monospace;
+	font-size: 22px;
+	font-weight: 400;
+	margin: 0;
+	color: #2f5876;
+}
+a:link,a:visited {
+	color: #000000;
+	outline: 0;
+	text-decoration: none;
+}
+img {
+	width: 30px;
+}
+.modal-header {
+	align-items: center;
+	border-bottom: 0.5px solid #dadada;
+	text-align:center
+}
+.modal-content {
+	padding: 0 2px;
+	text-align:center
+}
+.modal-icons {
+	border-top: 0.5px solid #dadada;
+	height: 50px;
+	width: 100%;
+	text-align:center
+}
+.logo {
+	padding: 16px;
+	text-align:center
+}
+.logo-icon {
+	vertical-align: text-bottom;
+	margin-right: 12px;
+}
+input[type="text"]{
+	width: 20px;
+}
+
+
+  
+
+
+    </style>
+    <script src="popup.js"></script>
+</head>
+
+<body>
+<div class="modal-header">
+    <h1 class="logo">
+        <img class="logo-icon" src="smallicon.png"/>Meet Kicker
+    </h1>
+</div>
+<div class="modal-content">
+    <p>Automatically kicks you from Google Meets!</p>
+    <p>Meet tab must be in its own <b>unminimized</b> window</p>
+</div>
+<div class="modal-icons">
+    <p></p>
+    <label>Kick when meet has <input id="input" type="text" value=""> people</label>
+    <div class="submitholder">
+        <button id="button" style="margin: 20px"> Change</button>
+    </div>
+</div>
+</body>
+</html>
