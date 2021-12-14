@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Meet Kicker",
   "description": "Nifty extension that kicks you from a Google Meet once people start leaving!",
-  "version": "1.0",
+  "version": "2.0",
   "icons": {"128": "bigicon.png"},
   "browser_action": {
     "default_icon": "smallicon.png",
